@@ -34,6 +34,7 @@
             this.txt_mdp = new System.Windows.Forms.TextBox();
             this.txt_id = new System.Windows.Forms.TextBox();
             this.pb_arbre = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pb_arbre)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +55,6 @@
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 8;
             this.label1.Text = "Matricule";
-           // this.label1.Click += new System.EventHandler(this.Label1_Click);
             // 
             // txt_mdp
             // 
@@ -62,7 +62,6 @@
             this.txt_mdp.Name = "txt_mdp";
             this.txt_mdp.Size = new System.Drawing.Size(211, 20);
             this.txt_mdp.TabIndex = 7;
-            //this.txt_mdp.TextChanged += new System.EventHandler(this.Txt_mdp_TextChanged);
             // 
             // txt_id
             // 
@@ -70,7 +69,6 @@
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(211, 20);
             this.txt_id.TabIndex = 6;
-           // this.txt_id.TextChanged += new System.EventHandler(this.Txt_id_TextChanged);
             // 
             // pb_arbre
             // 
@@ -82,11 +80,21 @@
             this.pb_arbre.TabIndex = 5;
             this.pb_arbre.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(385, 409);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // PageConnexion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txt_mdp);
@@ -94,7 +102,6 @@
             this.Controls.Add(this.pb_arbre);
             this.Name = "PageConnexion";
             this.Text = "PageConnexion";
-            //this.Load += new System.EventHandler(this.PageConnexion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_arbre)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -108,5 +115,6 @@
         private System.Windows.Forms.TextBox txt_mdp;
         private System.Windows.Forms.TextBox txt_id;
         private System.Windows.Forms.PictureBox pb_arbre;
+        private System.Windows.Forms.Button button1;
     }
 }
